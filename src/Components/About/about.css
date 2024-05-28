@@ -1,0 +1,99 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 220px;
+}
+
+.name1{
+margin-left: 40px;
+color: rgb(93, 93, 93);
+}
+
+.des{
+margin-left: 130px;
+color: rgb(76, 76, 171);
+}
+
+/* Button styling */
+.work {
+    background-color: rgb(76, 76, 171); /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size of the button text */
+    font-family: 'Montserrat', sans-serif; /* Font family */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background color and transform */
+}
+
+/* Hover effect */
+.work:hover {
+    background-color: rgb(56, 56, 141); /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Active effect */
+.work:active {
+    background-color: rgb(46, 46, 131); /* Even darker shade for active effect */
+    transform: scale(0.98); /* Slightly decrease size when pressed */
+}
+
+
+
+/* Container for the image */
+.image-container {
+    position: absolute;
+    top: 40%; /* Center vertically */
+    right:20% ; /* Position to the left side */
+    transform: translateY(-50%); /* Center vertically using transform */
+    width: 10cm; /* Set the width of the container (2 * radius) */
+    height: 9cm; /* Set the height of the container (2 * radius) */
+    border-radius: 10%; /* Make the container circular */
+    overflow: hidden; /* Clip the image to the container */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);  Add some shadow for depth */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for zoom */
+}
+
+/* Styling the image to fit the container */
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit:none; /* Ensure the image covers the container */
+    transition: transform 2.3s ease-in-out; /* Smooth transition for zoom */
+}
+
+/* Zoom effect on hover */
+.image-container:hover img {
+    transform: scale(2.2); /* Zoom in the image */
+}
+
+.about1{
+    background-color:rgb(12, 12, 124) ;
+    padding-top: 30px;
+    margin-top: 170px;
+    display: flex;
+}
+
+.abt-img{
+    width: 20cm;
+    height: 15cm;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.about-me{
+    font-size: 70px;
+    margin-left: 60px;
+    color:white;
+    margin-top: 50px;
+}
+.about-desc{
+    color:white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 130px;
+}

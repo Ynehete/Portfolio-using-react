@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px 100px;
+    background-color: #0000;
+    margin-top: 40px;
+}
+
+.nav-link{
+    padding: 0px;
+    margin: 10px;
+}
+
+.copyright{
+    padding-top:0px;
+}

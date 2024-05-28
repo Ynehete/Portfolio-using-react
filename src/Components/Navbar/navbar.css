@@ -1,0 +1,47 @@
+/* Basic reset */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body, html, div, h3, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    background-color: #0000; /* Bumblebee yellow */
+    
+}
+
+.name {
+    font-size: 24px;
+    color: #000; /* Black text */
+    margin-left:-60px ;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #000; /* Black text */
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s, padding 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #000; /* Black background */
+    color:aliceblue;
+    padding: 7px 12px;
+    transform: scale(1.05);
+    border-radius: 5px;
+}
